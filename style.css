@@ -42,15 +42,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-rows: 2fr 3fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     justify-content: center;
 }
 
 header {
     grid-row: 1;
-    grid-column: 1/5;
+    grid-column: 1/9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,6 +64,7 @@ button {
     padding: 10px 30px;
     font-size: 1.5rem;
     border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .headImg {
@@ -70,9 +72,9 @@ button {
 }
 
 .info {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .5);
     grid-row: 2;
-    grid-column: 2/4;
+    grid-column: 3/7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,20 +84,38 @@ button {
 .character {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     max-width: 50vw;
 }
 
 .charText {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     color: #fef9c3;
+    font-size: 1.15rem;
     padding: 2rem;
     gap: .5rem;
 }
 
-.imageContainer {
+/* .imageContainer {
+    position: relative;
     max-width: 50vw;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
 }
+
+.charImg {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+} */
+
 
 /* Button Animation */
 
