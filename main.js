@@ -59,6 +59,3 @@ function getCharacters(){
             console.log(`error ${err}`)
         });
   }
-
-
-
