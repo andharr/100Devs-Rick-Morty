@@ -48,11 +48,11 @@ function getCharacters(){
             console.log(data.origin.name)
             console.log(data.location.name)
 
-            if (data.origin.name == data.location.name){
-                origin.classList.add('hidden')
-            } else {
-                origin.classList.remove('hidden')
-            }
+            // if (data.origin.name == data.location.name){
+            //     origin.classList.add('hidden')
+            // } else {
+            //     origin.classList.remove('hidden')
+            // }
         })
   
         .catch(err => {
